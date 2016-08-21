@@ -29,7 +29,7 @@
 	" Set Airline colors for CtrlP
 	let g:airline#extensions#ctrlp#color_template = 'normal'
 
-	" Show unique bufer name in buffers line
+	" Show unique buffer name in buffers line
 	let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 	let g:airline#extensions#tabline#buffer_nr_show = 1
 " }}} [1]
@@ -43,13 +43,13 @@
 	" Show status line as 2nd line
 	set laststatus=2
 
-	" Set line with cursor highlight
+	" Highlight line with cursor
 	set cursorline
 
 	" Set line numbers
 	set number
 
-	" Move cursor to the last edited line on file opening
+	" Move cursor to the last edited line
 	function! ResetCursorPosition()
 		if line("'\"") <= line("$")
 			normal! g`"
