@@ -44,6 +44,7 @@
 	Plugin 'majutsushi/tagbar'					" Show class navigation tree
 	Plugin 'xolox/vim-misc'						" Auto load vim scripts
 	Plugin 'xolox/vim-easytags'					" Update ctags on the fly
+	Plugin 'evidens/vim-twig'					" Twig syntax highlight
 	" End plugin list
 
 	call vundle#end()
