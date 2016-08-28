@@ -29,6 +29,8 @@
 	set rtp+=~/.vim/bundle/Vundle.vim
 	call vundle#begin()
 
+	Plugin 'VundleVim/Vundle'					" Let Vundle manage itself
+
 	" Plugins list
 	Plugin 'w0ng/vim-hybrid'					" Theme
 	Plugin 'Shougo/vimproc.vim'					" Async lib
